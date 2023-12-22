@@ -1,12 +1,9 @@
-<header>
-  <app-menu-bar></app-menu-bar>
-</header>
-
 <app-menu-title></app-menu-title>
 
 <div class="container__articles">
   <div class="articles__main">
     <app-big-card
+      [id]="'1'"
       [cardDescription]="'Angular 5.0 sairá em 2035, afirma CTO da Google.'"
       [photoCover]="
         'https://assets-blog.hostgator.com.br/wp-content/uploads/2021/03/logo-angular-768x387.webp'
@@ -16,18 +13,21 @@
   </div>
   <div class="articles__others">
     <app-small-card
+      [id]="'2'"
       [photoCover]="
         'https://imagens.ebc.com.br/6cBKvd2Gn_bpUzjMP8ZFsNjqBWI=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/dolar_moeda_0803221211.jpg?itok=39fSIBWo'
       "
       [title]="'Dolar tem queda histórica'"
     ></app-small-card>
     <app-small-card
+      [id]="'3'"
       [photoCover]="
         'https://ravel.com.br/blog/wp-content/uploads/2022/08/Hackers-do-dia-a-dia-Capa.jpg'
       "
       [title]="'Hacker de 18 anos pega pisão perpétua'"
     ></app-small-card>
     <app-small-card
+      [id]="'4'"
       [photoCover]="
         'https://m.media-amazon.com/images/I/61aUBxqc5PL._AC_UF1000,1000_QL80_.jpg'
       "
