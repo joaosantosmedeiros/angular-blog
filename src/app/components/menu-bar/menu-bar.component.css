@@ -6,3 +6,8 @@
   margin-right: 20px;
   list-style: none;
 }
+
+.contaner__menu-bar > ul > li:hover{
+  transform: scale(1.1);
+  transition: all .25s;
+}
