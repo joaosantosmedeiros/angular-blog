@@ -7,7 +7,7 @@
   display: flex;
 }
 
-.small-card__photo > img {
+.small-card__photo > a > img {
   width: 300px;
   min-width: 200px;
 
@@ -20,7 +20,7 @@
   align-items: center;
 }
 
-.small-card__title  > h1{
+.small-card__title > h1 {
   font-size: 30px;
 }
 
